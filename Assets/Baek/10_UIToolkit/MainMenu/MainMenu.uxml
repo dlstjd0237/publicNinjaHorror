@@ -1,0 +1,58 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Baek/10_UIToolkit/MainMenu/MainMenu.uss?fileID=7433441132597879392&amp;guid=403c2bfc7b03f8e4cb805141943f9410&amp;type=3#MainMenu" />
+    <ui:VisualElement name="mainmenucontain-box" style="transition-duration: 0.3s; display: flex;">
+        <ui:VisualElement name="menubarcontain-box" style="flex-grow: 0; background-image: url(&apos;project://database/Assets/Baek/99_Assets/00_Dark%20-%20Complete%20Horror%20UI/Textures/Grunge/Full%20Corner.png?fileID=2800000&amp;guid=46733015444cc5546b7652687d8f0987&amp;type=3#Full Corner&apos;); width: 40%; height: 100%; -unity-background-image-tint-color: rgba(0, 0, 0, 0.99); transition-duration: 0.3s;">
+            <ui:VisualElement name="VisualElement" style="flex-grow: 0; width: 100%; height: 40%; flex-direction: column-reverse;">
+                <ui:VisualElement name="icon-box" style="flex-grow: 0; width: 70%; height: 352px; background-image: url(&apos;project://database/Assets/Baek/02_Sprites/NinjaIcon.png?fileID=21300000&amp;guid=f53015544f22f274cbc2124dd825aaa9&amp;type=3#NinjaIcon&apos;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="flex-grow: 0; width: 100%; height: 60%;">
+                <ui:VisualElement name="btncontain-box" style="flex-grow: 0; width: 70%; height: 80%; justify-content: space-around;">
+                    <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="play-btn" class="menubtn" />
+                    <ui:Button text="MultiPlay" parse-escape-sequences="true" display-tooltip-when-elided="true" name="multiplay-btn" class="menubtn" style="transition-duration: 0.2s; display: none;" />
+                    <ui:Button text="Setting" parse-escape-sequences="true" display-tooltip-when-elided="true" name="setting-btn" class="menubtn" style="transition-duration: 0.2s;" />
+                    <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-btn" class="menubtn" style="transition-duration: 0.2s;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="chapter-box" class="on" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; justify-content: center; align-self: flex-end; align-items: center; transition-duration: 0.2s; display: flex;">
+        <ui:VisualElement style="flex-grow: 0; width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/Baek/99_Assets/00_Dark%20-%20Complete%20Horror%20UI/Textures/Grunge/Background%205.png?fileID=21300000&amp;guid=b90153f929b9b3a4784a361bbcdbe519&amp;type=3#Background 5&apos;); justify-content: center; align-self: center; flex-direction: column-reverse; -unity-background-image-tint-color: rgb(0, 0, 0);">
+            <ui:ScrollView name="chapter-scroll" mode="Horizontal" focusable="false" horizontal-scroller-visibility="Hidden" mouse-wheel-scroll-size="20" touch-scroll-type="Clamped" scroll-deceleration-rate="0" horizontal-page-size="10" vertical-page-size="10" elasticity="1" style="width: 80%; height: 90%; align-self: center; justify-content: space-between; align-items: stretch; margin-top: 218px; margin-bottom: 133px; margin-right: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="exitbtncontain-box" picking-mode="Ignore" style="transition-duration: 0.1s; transition-property: all; top: 166px; left: 1686px;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-btn" class="exit-btn" style="transition-duration: 0s; top: auto;" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="Play Chapter" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="top: 128px; color: rgb(255, 255, 255); -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Baek/07_Font/Jeongnimsaji-B.otf?fileID=12800000&amp;guid=e92e2a440e1bb9941991986572760727&amp;type=3#Jeongnimsaji-B&apos;); font-size: 74px; position: absolute; left: 199px; border-bottom-width: 3px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+    <ui:VisualElement name="multiplay-box" class="on" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; justify-content: center; align-self: flex-end; align-items: center; transition-duration: 0.2s; display: flex;">
+        <ui:VisualElement style="flex-grow: 0; width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/Baek/99_Assets/00_Dark%20-%20Complete%20Horror%20UI/Textures/Grunge/Background%205.png?fileID=21300000&amp;guid=b90153f929b9b3a4784a361bbcdbe519&amp;type=3#Background 5&apos;); justify-content: center; align-self: center; flex-direction: column-reverse; -unity-background-image-tint-color: rgb(0, 0, 0);">
+            <ui:ScrollView name="room-scroll" mode="Horizontal" focusable="false" horizontal-scroller-visibility="Hidden" mouse-wheel-scroll-size="20" touch-scroll-type="Clamped" scroll-deceleration-rate="0" horizontal-page-size="10" vertical-page-size="10" elasticity="1" style="width: 80%; height: 90%; align-self: center; justify-content: space-between; align-items: stretch; margin-top: 218px; margin-bottom: 133px; margin-right: 0;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="exitbtncontain-box" picking-mode="Ignore" style="transition-duration: 0.1s; transition-property: all; top: 166px; left: 1686px;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-btn" class="exit-btn" style="transition-duration: 0s; top: auto;" />
+        </ui:VisualElement>
+        <ui:Button text="방만들기" parse-escape-sequences="true" display-tooltip-when-elided="true" name="createroom-btn" class="createroom-btn" style="transition-duration: 0.2s;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="settingcontain-box" picking-mode="Ignore" class="on" style="transition-duration: 0.2s; top: -2px; left: 0; display: flex;">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 0; width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/Baek/99_Assets/00_Dark%20-%20Complete%20Horror%20UI/Textures/Grunge/Background%205.png?fileID=21300000&amp;guid=b90153f929b9b3a4784a361bbcdbe519&amp;type=3#Background 5&apos;); justify-content: center; align-self: center; flex-direction: column-reverse; -unity-background-image-tint-color: rgb(0, 0, 0); position: relative; -unity-background-scale-mode: stretch-to-fill; -unity-slice-scale: 0.5px; align-items: center;">
+            <ui:VisualElement name="soundcontain-box" class="soundcontain-box">
+                <ui:Slider picking-mode="Ignore" label="MASTER VOLUME  " value="0.5" high-value="1" name="mastervolume-slider" low-value="0.001" class="slider" />
+                <ui:Slider picking-mode="Ignore" label="MUSIC VOLUME     " value="0.5" high-value="1" name="musicvolume-slider" low-value="0.001" class="slider" />
+                <ui:Slider picking-mode="Ignore" label="SFX VOLUME         " value="0.5" high-value="1" name="sfxvolume-slider" low-value="0.001" class="slider" />
+            </ui:VisualElement>
+            <ui:VisualElement name="tabbar-box" style="flex-grow: 0; width: 90%; height: 15%; flex-direction: row; top: -108px;">
+                <ui:Button text="SETTING" parse-escape-sequences="true" display-tooltip-when-elided="true" name="sound-btn" class="menubtn" style="font-size: 74px; margin-right: 186px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="exitbtncontain-box" picking-mode="Ignore" style="transition-duration: 0.1s; transition-property: all; top: 102px; left: 1758px;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-btn" class="exit-btn" style="transition-duration: 0s; top: auto;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="titlecontain-box" picking-mode="Ignore" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; display: flex;">
+        <ui:VisualElement name="titlebackground-box" class="titlebackground-box" style="transition-duration: 0.4s;">
+            <ui:VisualElement name="icon-box" class="icon-box" style="transition-duration: 3s;" />
+            <ui:Label tabindex="-1" text="[NINJA] PRESENTS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="company-label" class="agameby-label" style="transition-duration: 2.5s; top: 727px; left: 53px; font-size: 93px;" />
+            <ui:Label tabindex="-1" text="A GAME BY [ 공서연, 김아윤, 백인성, 이인해, 정세현]" parse-escape-sequences="true" display-tooltip-when-elided="true" name="agameby-label" class="agameby-label" style="transition-duration: 2.5s; top: 724px; left: 12px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

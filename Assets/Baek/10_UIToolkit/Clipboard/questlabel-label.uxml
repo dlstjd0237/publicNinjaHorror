@@ -1,0 +1,3 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Label tabindex="-1" text="지금해야" parse-escape-sequences="true" display-tooltip-when-elided="true" name="questlabel-label" style="font-size: 34px; -unity-font: url(&apos;project://database/Assets/Baek/07_Font/Jeongnimsaji-B.otf?fileID=12800000&amp;guid=e92e2a440e1bb9941991986572760727&amp;type=3#Jeongnimsaji-B&apos;); -unity-font-definition: initial; white-space: normal;" />
+</ui:UXML>

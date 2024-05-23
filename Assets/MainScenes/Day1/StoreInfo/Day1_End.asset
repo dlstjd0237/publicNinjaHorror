@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eabf698b93811944e81d55f2aa48e870, type: 3}
+  m_Name: Day1_End
+  m_EditorClassIdentifier: 
+  Day: Day1
+  TextInfoList:
+  - Info: "@@@@\uB144 5\uC6D4 3\uC77C"
+    InfoAudio: {fileID: 0}
+  - Info: "\uCCAB\uB0A0\uC774\uC5C8\uC9C0\uB9CC \uADF8\uB807\uAC8C \uD798\uB4E4\uC9C0\uB294
+      \uC54A\uC558\uB2E4."
+    InfoAudio: {fileID: 0}
+  - Info: "\uC544\uBB34\uD2BC \uC5B4\uB835\uC9C0 \uC54A\uC740 \uC54C\uBC14\uB97C
+      \uD560 \uC218 \uC788\uC5B4\uC11C \uC88B\uC558\uB2E4."
+    InfoAudio: {fileID: 0}

@@ -1,0 +1,20 @@
+#clipboard-box.on {
+    margin-left: -800px;
+    margin-right: 0;
+}
+
+#clipboard-box {
+    position: absolute;
+    width: 42%;
+    height: 100%;
+    flex-grow: 0;
+    background-image: url('project://database/Assets/Baek/02_Sprites/clipboard-2693417_1280.png?fileID=2800000&guid=fd3762bf22f22814e832749322a33a12&type=3#clipboard-2693417_1280');
+    -unity-background-scale-mode: scale-and-crop;
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    font-size: 70px;
+}

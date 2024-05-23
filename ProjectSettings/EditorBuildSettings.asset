@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MainScenes/MainMenu.unity
+    guid: 592a1cdcdc19bf34781ec44137cde867
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Baek/00_Scenes/Test.unity
+    guid: 8b48af314bdc7a745b68b9bc7d24f544
+  - enabled: 1
+    path: Assets/InHae/Nimikko_Karaoke/Levels/L_Karaoke.unity
+    guid: d06dec36335499240b2ac201361d8b7b
+  - enabled: 1
+    path: Assets/Baek/00_Scenes/L_Karaoke 1.unity
+    guid: e49d120555f8dae4abf8d76b78a5f22d
+  - enabled: 1
+    path: Assets/Kong/01_Scene/Karaoke_1.unity
+    guid: 8676f55df370cd444a67015465c81150
+  - enabled: 1
+    path: Assets/Kong/01_Scene/Karaoke_2.unity
+    guid: f39654c6be2508340bd9eb60cbc22230
+  - enabled: 1
+    path: Assets/MainScenes/Day1/Day1.unity
+    guid: 415d78d841738034f80edfe741c75da1
+  m_configObjects: {}

@@ -1,0 +1,10 @@
+.contain {
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    height: 28%;
+    top: 782px;
+}
+
+.contain.on {
+    opacity: 0;
+}

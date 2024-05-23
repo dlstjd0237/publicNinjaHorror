@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dd997a2f0f310d408ec4a6c7f266085, type: 3}
+  m_Name: NpcDialogue
+  m_EditorClassIdentifier: 
+  infoList:
+  - Talker: "\uC190\uB2D8"
+    Content: "\uC5B4\uB514\uB85C \uAC00\uC57C \uD558\uB098\uC694?"
+    DialogueAnimator: {fileID: 0}
+  - Talker: "\uB098"
+    Content: "\uBE48 \uBC29 \uCC3E\uC544\uAC00\uC138\uC694."
+    DialogueAnimator: {fileID: 0}

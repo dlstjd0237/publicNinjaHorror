@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Button text="제목" parse-escape-sequences="true" display-tooltip-when-elided="true" name="chapter-btn" class="chapter" style="transition-duration: 0.2s;">
+        <ui:VisualElement picking-mode="Ignore" name="chapterinfo-box" class="chapterinfo-box on" style="transition-duration: 0.2s;">
+            <ui:Label tabindex="-1" text="1일차" parse-escape-sequences="true" display-tooltip-when-elided="true" name="chaptername-label" style="height: 40%; width: 100%; color: rgb(255, 255, 255); -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Baek/07_Font/Jeongnimsaji-B.otf?fileID=12800000&amp;guid=e92e2a440e1bb9941991986572760727&amp;type=3#Jeongnimsaji-B&apos;); font-size: 78px; -unity-text-align: middle-center; white-space: normal;" />
+            <ui:Label tabindex="-1" text="기모ㄸ가딱띠" parse-escape-sequences="true" display-tooltip-when-elided="true" name="chapterinfo-label" style="width: 100%; height: 60%; -unity-font-definition: initial; -unity-font: url(&apos;project://database/Assets/Baek/07_Font/Jeongnimsaji-B.otf?fileID=12800000&amp;guid=e92e2a440e1bb9941991986572760727&amp;type=3#Jeongnimsaji-B&apos;); color: rgb(255, 255, 255); font-size: 46px; -unity-text-align: upper-center; white-space: normal; padding-right: 40px; padding-left: 40px; -unity-font-style: normal;" />
+        </ui:VisualElement>
+    </ui:Button>
+</ui:UXML>

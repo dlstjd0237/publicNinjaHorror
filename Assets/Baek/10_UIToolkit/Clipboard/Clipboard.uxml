@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Baek/10_UIToolkit/Clipboard/Clipboard.uss?fileID=7433441132597879392&amp;guid=eca487a7c7d811c4982d34287d5d50d2&amp;type=3#Clipboard" />
+    <ui:VisualElement name="clipboardcontain-box" picking-mode="Ignore" style="flex-grow: 1; height: 100%; width: 100%;">
+        <ui:VisualElement name="clipboard-box" picking-mode="Ignore" class="on" style="transition-duration: 0.8s; width: 35%; height: 100%; -unity-background-image-tint-color: rgb(108, 108, 108);">
+            <ui:VisualElement name="textbox-box" picking-mode="Ignore" style="flex-grow: 0; width: 80%; height: 65%; margin-top: 130px; padding-top: 0; padding-bottom: 0; align-items: center;">
+                <ui:Label tabindex="-1" text="해야할 일" parse-escape-sequences="true" display-tooltip-when-elided="true" name="head-label" picking-mode="Ignore" class="text" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 5px; border-left-width: 0; border-bottom-color: rgb(0, 0, 0);" />
+                <ui:VisualElement name="labelinfo-box" picking-mode="Ignore" style="flex-grow: 1; width: 100%; height: 108%; padding-right: 25px; padding-left: 25px; justify-content: flex-start;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
