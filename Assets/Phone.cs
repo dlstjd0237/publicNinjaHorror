@@ -6,7 +6,7 @@ public class Phone : Interactable
     public DialogueData DialogueData;
     private string defaultMessage;
     private AudioSource _audio;
-    private bool qwer;
+    private bool _isInteracted;
     [SerializeField] private NPCSpawn _npcSpawn;
     private void Awake()
     {
@@ -15,7 +15,7 @@ public class Phone : Interactable
     }
     public override void Interact()
     {
-        if (qwer == false)
+        if (_isInteracted == false)
         {
             StopCoroutine("ItemNone");
             StartCoroutine("ItemNone");
@@ -29,12 +29,12 @@ public class Phone : Interactable
     {
         _audio.Play();
         _audio.loop = true;
-        qwer = true;
+        _isInteracted = true;
     }
 
     private IEnumerator ItemNone()
     {
-        promptMessage = "[ÀüÈ­°¡ ¿ÀÁö ¾Ê¾Ò´Ù.]";
+        promptMessage = "[Ã€Ã¼ÃˆÂ­Â°Â¡ Â¿Ã€ÃÃ¶ Â¾ÃŠÂ¾Ã’Â´Ã™.]";
         yield return new WaitForSeconds(1.5f);
         promptMessage = defaultMessage;
     }
